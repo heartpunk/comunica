@@ -38,12 +38,6 @@
     "sparqlalgebrajs": "^4.0.0",
     "sparqlee": "^2.1.0"
   },
-  "optionalDependencies": {
-    "@types/chai": "^4.3.3",
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0",
-    "n3": "^1.16.2"
-  },
   "scripts": {
     "build": "npm run build:ts && npm run build:components",
     "build:ts": "node \"../../node_modules/typescript/bin/tsc\"",
