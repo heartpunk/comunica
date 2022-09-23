@@ -13,7 +13,7 @@ import * as n3 from 'n3';
 import { Store } from 'n3';
 import { DataFactory } from 'rdf-data-factory';
 import { Factory } from 'sparqlalgebrajs';
-import { QueryEngine } from '../lib';
+import { QueryEngine } from '../lib/QueryEngine';
 import { mockHttp } from './util';
 
 const DF = new DataFactory();
